@@ -2,7 +2,7 @@
 [【中級者向け・Django4対応】Python/DjangoによるECサイト開発講座（Django3.2系にも対応）](https://www.udemy.com/course/django-ecweb-vegeket/?couponCode=KEEPLEARNING)
 
 # 参考
-https://github.com/takux/vegeket_project/tree/main/sec01
+https://github.com/takux/vegeket_project
 
 # 環境構築
 `$ python3 -m venv venv`
