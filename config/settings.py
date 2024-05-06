@@ -85,21 +85,21 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     # sqlite3
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # },
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    },
 
     # mysql
     # pip install mysqlclient
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'python_test',
-        'USER': 'user',
-        'PASSWORD': 'root',
-        'HOST': '127.0.0.1',
-        'PORT': '8889',
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'python_test',
+    #     'USER': 'user',
+    #     'PASSWORD': 'root',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '8889',
+    # }
 }
 
 
